@@ -10,17 +10,14 @@ import { FruitsService } from '../fruits.service';
 })
 export class ViewfruitComponent {
   testItem:any;
+ 
   constructor(private fruitService: FruitsService) {}
  
   ngOnInit(): void {
-    this.getFruits();
+    
   }
  
-  getFruits() {
-    this.fruitService.getFruits().subscribe((data) => {
-     this.testItem = data;
-    });
-  }
+ 
 
   
 

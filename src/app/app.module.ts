@@ -6,17 +6,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './fruits/home/home.component';
 import { ViewfruitComponent } from './fruits/viewfruit/viewfruit.component';
+import { CreateComponent } from './fruits/create/create.component';
+import { FormsModule } from '@angular/forms';
+import { EditComponent } from './fruits/edit/edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ViewfruitComponent
+    ViewfruitComponent,
+    CreateComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

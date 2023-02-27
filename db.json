@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Mango",
       "quantity": 10,
-      "price": 360
+      "price": 400
     },
     {
       "id": 2,
@@ -15,8 +15,8 @@
     {
       "id": 3,
       "name": "Orange",
-      "price": 300,
-      "quantity": 5
+      "price": 500,
+      "quantity": 15
     }
   ]
 }

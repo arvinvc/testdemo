@@ -33,11 +33,11 @@ export class HomeComponent {
   }
  
   delete() {
-    this.fruitService.delete(this.idTodelete).subscribe({
-      next: (data) => {
+    this.fruitService.delete(this.idTodelete).subscribe(
+     (data) => {
         this.allFruits = this.allFruits.filter(_ => _.id != this.idTodelete)
         this.deleteModal.hide();
       },
-    });
+    );
   }
 }
